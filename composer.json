@@ -1,0 +1,37 @@
+{
+    "name": "coduo/magento2-core",
+    "description": "Coduo core extension",
+    "keywords": [
+        "magento 2",
+        "coduo core extension"
+    ],
+    "license": [
+        "proprietary"
+    ],
+    "homepage": "https://www.coduo.com/",
+    "support": {
+        "email": "support@coduo.com",
+        "issues": "https://github.com/coduo/magento2-core/issues/"
+    },
+    "authors": [
+        {
+            "name": "Renon Stewart",
+            "email": "renon@coduo.com",
+            "homepage": "https://www.coduo.com/",
+            "role": "Leader"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.1.12",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Coduo\\Core\\": ""
+        }
+    }
+}
